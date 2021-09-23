@@ -15,6 +15,11 @@ namespace ListExample
             names.Add("Rayhan");
             names.Add("Mishu");
 
+            //Iterate list elements using foreach loop
+            foreach(var name in names)
+            {
+                Console.WriteLine(name);
+            }
 
         }
     }
