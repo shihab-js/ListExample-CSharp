@@ -10,6 +10,12 @@ namespace ListExample
             //creating a list of string
             var names = new List<string>();
 
+            //add some elements
+            names.Add("Shihab");
+            names.Add("Rayhan");
+            names.Add("Mishu");
+
+
         }
     }
 }
