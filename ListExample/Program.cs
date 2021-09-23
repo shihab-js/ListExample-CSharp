@@ -15,6 +15,13 @@ namespace ListExample
             names.Add("Rayhan");
             names.Add("Mishu");
 
+            //create a list using collection initializer
+            var cities = new List<string>() {
+                "Shihab",
+                "Mishu",
+                "Rayhan"
+            };
+
             //Iterate list elements using foreach loop
             foreach(var name in names)
             {
