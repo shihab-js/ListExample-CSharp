@@ -30,6 +30,7 @@ namespace ListExample
 
             Console.WriteLine("Iterate the cities list: ");
 
+
             //iterate the cities list using foreach loop
             foreach(var city in cities)
             {
